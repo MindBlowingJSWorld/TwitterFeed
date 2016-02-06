@@ -1,0 +1,8 @@
+{
+    "host": "127.0.0.1",
+    "port": "1111",
+    "name": "Mahesh Kulkarni",
+    "api_key": "mkulkarni",
+    "version": "2",
+    "client_template": "client/html"
+}

@@ -1,0 +1,3 @@
+This is a sample text file, used for just reading the details. This is a mockup for the 'fs' module to read file async and sync. 
+if its printed, that means you have printed the text using node.js.
+congratulations;

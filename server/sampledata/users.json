@@ -1,0 +1,20 @@
+{
+    "mahesh_klp": {
+        "username": "mahesh_klp",
+        "name": "Mahesh Kulkarni",
+        "email": "kulkarni.mak172@gmail.com",
+        "phone": "1234567890",
+        "twitter_id": "maheshk172",
+        "github_id": "maheshk172",
+        "linkedin_id": "mahesh_klp"
+    },
+    "santosh_klp": {
+        "username": "santosh123",
+        "name": "Santosh Kulkarni",
+        "email": "santoshk@neilsoft.com",
+        "phone": "1234567890",
+        "twitter_id": "santoshk172",
+        "github_id": "santosh172",
+        "linkedin_id": "santosh_klp"
+    }
+}

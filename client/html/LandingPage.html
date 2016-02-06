@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html ng-app="SocialViewer">
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.3.0-beta.5" src="../../libs/angular-1.3.0-beta.16/angular.js"></script>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../../libs/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    
+    <script src="../controller/GitHubController.js"></script> 
+    <script src="../controller/TwitterController.js"></script>
+
+  </head>
+
+  <body>
+
+    <header class="container">
+         <div class="row">
+            <p>
+              <ul id="NavigationBar" class="col-md-8 col-md-offset-4">
+                  <li id="login" >Login</li>
+                  <li id="signup">Signup</li>
+                  <li id="contactus">Contact US</li>
+                  <li id="documentation">Documentation</li>
+                  <li id="faqs">FAQS</li>
+              </ul>
+            </p> 
+          </div>
+    </header>
+
+    <h1>Welcome to Social Viewer</h1>
+    
+    <div ng-controller="LandingPageController" >
+      <div class="container">
+          <div class="row">
+              <!-- Display twitter and latest twitts here -->
+              <section id="twitterArea" class="well col-md-6">
+              <h2>Trending Twitts displayed here </h2>
+                <!-- This is mainly Twitter Area to display twitter details -->
+              </section>
+              <section id="githubArea" class="well col-md-5 col-md-offset-1">
+                <h2>Git Hub Repositories displayed here </h2>
+                <!-- Place holder for Git Hub Details etc -->
+              </section>  
+
+          </div>
+        </div>
+    </div>
+      <hr/>
+      <footer class="container"> 
+          <div class="row">
+              <!-- Footer for links and URLs -->
+          </div>
+      </footer>
+  </body>
+
+  <script src="../bootstrap/js/jquery-2.1.1.js"></script>
+  <script src="../bootstrap/js/bootstrap.js"> </script>
+</html>
